@@ -24,8 +24,6 @@ const stringArray = flavorPrompt.split(",");
 
 console.log(stringArray);
 
-const flavorArray = stringArray;
-
 let i = 0;
 while (i > flavorArray.length) {
   console.log(flavorArray[i]);
@@ -47,8 +45,9 @@ for (let i = 0; i < flavorArray.length; i++) {
     count.strawberry++;
   } else if (flavorArray[i] === "coffee") {
     count.coffee++;
-  } else {
-    count.other++;
   }
+  //   } else {
+  //     count.other++;
+  //   }
 }
 console.log(count);
